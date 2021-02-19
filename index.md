@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-## This is just local content
+This is just local content
 
 don't give up
 ```
