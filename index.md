@@ -16,9 +16,7 @@ Easy to set up. You have to remember just one password.
 ```
 
 ##### BIOMETRIC AUTHENTICATION
-```
 Unlock Authenticator without typing your passphrase using Touch or Face ID.[learn more][learn-more]
-```
 
 Sync & Backup
 > All data is automatically backed up and synced across all devices via iCloud.
@@ -28,5 +26,5 @@ Sync & Backup
 
 <!-- variables -->
 
-[learn-more]: #
+[learn-more]: https://en.wikipedia.org/wiki/Two-factor_authentication
 [two-factor-authentication]: https://en.wikipedia.org/wiki/Two-factor_authentication
