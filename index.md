@@ -21,7 +21,7 @@ Unlock Authenticator without typing your passphrase using Touch or Face ID.
 ```
 
 
-[two-factor-authentication]: https://en.wikipedia.org/wiki/Two-factor_authentication
+[learn more...]: https://en.wikipedia.org/wiki/Two-factor_authentication
 
 
 [Link to another page](./another-page.html).
