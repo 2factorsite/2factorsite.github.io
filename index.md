@@ -20,11 +20,10 @@ Easy to set up. You have to remember just one password.
 Unlock Authenticator without typing your passphrase using Touch or Face ID.[learn more][learn-more]
 ```
 
+[Link to another page](./another-page.html).
 
+
+<!-- variables -->
 
 [learn-more]: #
-
 [two-factor-authentication]: https://en.wikipedia.org/wiki/Two-factor_authentication
-
-
-[Link to another page](./another-page.html).
