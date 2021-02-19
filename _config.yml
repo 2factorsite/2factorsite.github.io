@@ -21,16 +21,16 @@
 title: Authenticator App
 email: support@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
+  # Write an awesome description for your new site here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://google.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: authwidget
+# github_username:  jekyll
 
 # Build settingss
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
