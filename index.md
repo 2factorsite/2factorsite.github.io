@@ -1,9 +1,10 @@
 ---
 layout: default
+title: title from index
 ---
 
 
-This is just local content
+##This is just local content
 
 don't give up
 ```
