@@ -29,9 +29,9 @@ dribbble_username: 404a
 # github_username:  jekyll
 
 # Build settingss
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
+# theme: jekyll-theme-cayman
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
