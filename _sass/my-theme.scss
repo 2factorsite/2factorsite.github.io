@@ -18,17 +18,18 @@
     @include clearfix;
   }
   
+@mixin float-left {
+float: left !important;
+}
 
-  @mixin float-left {
-    float: left !important;
-  }
-  @mixin float-right {
-    float: right !important;
-  }
-  @mixin float-none {
-    float: none !important;
-  }
-  
+@mixin float-right {
+float: right !important;
+}
+
+@mixin float-none {
+float: none !important;
+}
+
 .page-nav {
     color: $header-heading-color;
     text-align: center;
