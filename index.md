@@ -17,11 +17,14 @@ Easy to set up. You have to remember just one password.
 
 **BIOMETRIC AUTHENTICATION**
 ```
-Unlock Authenticator without typing your passphrase using Touch or Face ID.
+Unlock Authenticator without typing your passphrase using Touch or Face ID.[learn more][learn-more]
 ```
 
 
-[learn more...]: https://en.wikipedia.org/wiki/Two-factor_authentication
+
+[learn-more]: #
+
+[two-factor-authentication]: https://en.wikipedia.org/wiki/Two-factor_authentication
 
 
 [Link to another page](./another-page.html).
