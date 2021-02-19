@@ -21,9 +21,7 @@ Unlock Authenticator without typing your passphrase using Touch or Face ID.[lear
 ```
 
 Sync & Backup
-```
-All data is automatically backed up and synced across all devices via iCloud.
-```
+> All data is automatically backed up and synced across all devices via iCloud.
 
 [Link to another page](./another-page.html).
 
