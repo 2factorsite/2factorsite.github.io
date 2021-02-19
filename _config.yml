@@ -4,5 +4,7 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
+content: https://apps.apple.com/app/id1538761576#?platform=mac
+
 ios_url: https://apps.apple.com/app/id1538761576#?platform=iphone
 macos_url: https://apps.apple.com/app/id1538761576#?platform=mac
