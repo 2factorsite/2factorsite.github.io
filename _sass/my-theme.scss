@@ -7,11 +7,6 @@
     }
   }
   
-  // Usage as a mixin
-  .element {
-    @include clearfix;
-  }
-  
 @mixin float-left {
 float: left !important;
 }
