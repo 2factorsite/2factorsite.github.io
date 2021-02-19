@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: Two-Factor Authentication (2FA) Guides
+description: The Step by Step Guides on how to enable Two-Factor Authentication (2FA) on websites that support that option, including Google, Facebook, Dropbox, and many others.
 ---
 
 ## Welcome to another page
