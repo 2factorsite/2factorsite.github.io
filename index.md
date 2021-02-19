@@ -15,12 +15,12 @@ Authenticator is a simple, free [two-factor authentication][two-factor-authentic
 Easy to set up. You have to remember just one password.
 ```
 
-### BIOMETRIC AUTHENTICATION
+##### BIOMETRIC AUTHENTICATION
 ```
 Unlock Authenticator without typing your passphrase using Touch or Face ID.[learn more][learn-more]
 ```
 
-SYNC & BACKUP
+Sync & Backup
 ```
 All data is automatically backed up and synced across all devices via iCloud.
 ```
