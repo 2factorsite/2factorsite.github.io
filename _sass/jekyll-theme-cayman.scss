@@ -47,7 +47,7 @@ body {
     left: 10px;
     height: auto;
     width: auto;
-    // background: invert($body-link-color);
+    background: invert($body-link-color);
     outline: thick solid invert($body-link-color);
   }
 }
@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  // background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
     padding: 5rem 6rem;
