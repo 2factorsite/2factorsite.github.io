@@ -29,7 +29,7 @@ dribbble_username: 404a
 # github_username:  jekyll
 
 # Build settingss
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
