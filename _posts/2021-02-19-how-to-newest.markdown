@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "how to one"
+title:  "how to newest"
 date:   2021-02-19 11:54:17 +0100
 categories: jeky
 ---
