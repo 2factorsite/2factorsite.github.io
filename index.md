@@ -4,7 +4,9 @@ title: "Authenticator Widget & Backup"
 description: Secure and fast Two-Factor Authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.
 ---
 
-# This is just local content
+<!-- here is body, header and footer is setted from layout: default -->
+
+# Protect your accounts with an extra layer of security
 
 don't give up
 ```
