@@ -10,10 +10,16 @@ description: Secure and fast Two-Factor Authentication manager for iPhone, iPad,
 
 Authenticator is a simple, free [two-factor authentication][two-factor-authentication] app. It helps keep your online accounts secure by generating unique one-time passwords.
 
-don't give up
+**NO ACCOUNT REQUIRED**
 ```
-header and footer is setted from default template
+Easy to set up. You have to remember just one password.
 ```
+
+**BIOMETRIC AUTHENTICATION**
+```
+Unlock Authenticator without typing your passphrase using Touch or Face ID.
+```
+
 
 [two-factor-authentication]: https://en.wikipedia.org/wiki/Two-factor_authentication
 
