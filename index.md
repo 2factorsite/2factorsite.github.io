@@ -15,4 +15,7 @@ don't give up
 header and footer is setted from default template
 ```
 
+Check out the [Jekyll docs][jekyll-docs]
+[jekyll-docs]: https://jekyllrb.com/docs/home
+
 [Link to another page](./another-page.html).
