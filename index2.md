@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-title: title
+title: Authenticator
 description: description
 ---
 
