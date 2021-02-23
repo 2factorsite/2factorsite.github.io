@@ -6,21 +6,24 @@
         
         <div class="py-4">
           {% if site.available_on_app_store %}
-          <a href="{{ site.iOS_url }}">
-            <img 
-            src="./assets/img/badge-download-on-the-app-store.svg" 
-            alt="download on ios app store" 
-            height="54px"
-            class="pr-3"
-            >
-          </a>
-          <a href="{{ site.macOS_url }}">
-            <img 
-            src="./assets/img/badge-download-on-the-mac-app-store.svg" 
-            alt="download on mac app store"
-            height="54px"
-            >
-          </a>
+          <p>
+            <a href="{{ site.iOS_url }}">
+              <img 
+              src="./assets/img/badge-download-on-the-app-store.svg" 
+              alt="download on ios app store" 
+              height="54px"
+              >
+            </a>
+          </p>
+          <p>
+            <a href="{{ site.macOS_url }}">
+              <img 
+              src="./assets/img/badge-download-on-the-mac-app-store.svg" 
+              alt="download on mac app store"
+              height="54px"
+              >
+            </a>
+          </p>
           {% endif %}
         </div>
 
