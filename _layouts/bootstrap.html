@@ -28,13 +28,15 @@
 
     {%- include nav.html -%}
 
-    <!-- all content from md files will appear here -->
     <div class="container">
       {%- include header.html -%}
 
       {%- include features.html -%}
   
+      <!-- any content from .md file will appear here -->
       {{ content }}
+
+      {%- include testflight.html -%}
 
     </div>
 

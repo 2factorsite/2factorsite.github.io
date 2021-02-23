@@ -1,13 +1,26 @@
-  <header class="px-2" role="banner">
+  <header class="px-2 py-5" role="banner">
     <div class="row">
-      <div class="col-md-6 py-5">
+      <div class="col-md-6 py-5" style="align-items: stretch">
         <h1 class="display-4 py-2">Authenticator: Widget & Backup</h1>
         <h6 class="lead">Secure and fast two-factor authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.</h6>
         
         <div class="py-4">
           {% if site.available_on_app_store %}
-          <a href="{{ site.iOS_url }}"><img src="./assets/img/badge-download-on-the-app-store.svg" alt="download on ios app store"></a>
-          <a href="{{ site.macOS_url }}"><img src="./assets/img/badge-download-on-the-mac-app-store.svg" alt="download on mac app store"></a>
+          <a href="{{ site.iOS_url }}">
+            <img 
+            src="./assets/img/badge-download-on-the-app-store.svg" 
+            alt="download on ios app store" 
+            height="54px"
+            class="pr-3"
+            >
+          </a>
+          <a href="{{ site.macOS_url }}">
+            <img 
+            src="./assets/img/badge-download-on-the-mac-app-store.svg" 
+            alt="download on mac app store"
+            height="54px"
+            >
+          </a>
           {% endif %}
         </div>
 
