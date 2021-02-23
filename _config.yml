@@ -1,11 +1,13 @@
-title: Authenticator App
+title: Authenticator
 description: Secure and fast Two-Factor Authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
-ios_url: https://apps.apple.com/app/id1538761576#?platform=iphone
-macos_url: https://apps.apple.com/app/id1538761576#?platform=mac
+available_on_app_store: true
+
+iOS_url: https://apps.apple.com/app/id1538761576#?platform=iphone
+macOS_url: https://apps.apple.com/app/id1538761576#?platform=mac
 
 privacy_url: https://apps.apple.com
 terms_of_service_url: https://apps.apple.com

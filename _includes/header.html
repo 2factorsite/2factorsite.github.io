@@ -1,10 +1,16 @@
   <header class="p-2" role="banner">
     <div class="row">
-      <div class="col-md-6">
-        <h1 class="display-4">Authenticator: Widget & Backup</h1>
+      <div class="col-md-6 py-5">
+        <h1 class="display-4 py-2">Authenticator: Widget & Backup</h1>
         <h6 class="lead">Secure and fast two-factor authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.</h6>
-        <button class="btn btn-dark">iOS</button>
-        <button class="btn btn-dark">macOS</button>
+        
+        <div class="py-4">
+          {% if site.available_on_app_store %}
+          <a href="{{ site.iOS_url }}"><img src="./assets/img/badge-download-on-the-app-store.svg" alt="download on ios app store"></a>
+          <a href="{{ site.macOS_url }}"><img src="./assets/img/badge-download-on-the-mac-app-store.svg" alt="download on mac app store"></a>
+          {% endif %}
+        </div>
+
       </div>
       <div class="col-md-6 py-5">
         <img src="./assets/img/artboard_optimized.png" alt="" style="width: 100%">
