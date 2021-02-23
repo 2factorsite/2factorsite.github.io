@@ -6,7 +6,6 @@ description: Secure and fast Two-Factor Authentication manager for iPhone, iPad,
 
 <!-- here is body, header and footer is setted from layout: default -->
 
-
 <!-- variables -->
 
 <!-- [learn-more]: https://en.wikipedia.org/wiki/Two-factor_authentication
