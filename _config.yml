@@ -12,3 +12,6 @@ macOS_url: https://apps.apple.com/app/id1538761576#?platform=mac
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
 mail_to_url: support@2stable.com
+
+# patch  for privacy and terms
+APP_NAME: Authenticator

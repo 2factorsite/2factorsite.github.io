@@ -85,4 +85,15 @@ You affirm that you are either more than 18 years of age, or an emancipated mino
 
 ### Assignment
 
-These Terms of Service, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by APP_NAME without restriction.
+These Terms of Service, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by [APP_NAME][APP_NAME] without restriction.
+
+{{ site.APP_NAME }}
+
+[APP_NAME]: [https://en.wikipedia.org/wiki/Two-factor_authentication]
+
+<!--#
+NOUN=mother
+ATTRIBUTION=Mark Wahlberg
+$-->
+
+"Say hi to your {{ NOUN }} for me," {{ ATTRIBUTION }}
