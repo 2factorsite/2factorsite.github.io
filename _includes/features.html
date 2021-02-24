@@ -3,116 +3,30 @@
     <div class="h2 text-center">Protect your accounts with an extra layer of security</div>
     <p class="lead px-md-5">Authenticator is a simple, <a href="https://en.wikipedia.org/wiki/Two-factor_authentication">free two-factor authentication</a> app. It helps keep your online accounts secure by generating unique one-time passwords.</p>
   </div>
+
   <ul class="row p-0" style="list-style: none">
+    {% for item in site.data.features %}
     <li class="col-md-4">
       <div class="px-2 py-4 py-md-5">
         <div class="d-flex flex-row">
           <div class="py-3" id="feature_image_one">
             <span class="pr-3">
               <img 
-              src="{{ site.featurure_one_image}}" 
+              src="{{ item.image }}" 
               alt="image" 
               width="40px"
               >
             </span>
           </div>
           <div id="title_one" class="d-flex align-content-center flex-wrap">
-            <strong>{{ site.featurure_one_title }}</strong>
+            <strong>{{ item.title }}</strong>
           </div>
         </div>
         <div id="description_one">
-          <p>{{ site.featurure_one_descr }}</p>
+          <p>{{ item.details }}</p>
         </div>
       </div>
     </li>
-    <li class="col-md-4">
-      <div class="px-2 py-4 py-md-5">
-        <div class="py-3">
-          <span class="pr-3">
-            <img 
-            src="{{ site.featurure_two_image }}" 
-            alt="image" 
-            width="40px"
-            >
-          </span>
-        </div>
-        <div class="pb-1">
-          <strong>{{ site.featurure_two_title }}</strong>
-        </div>
-        <div>
-          <span>{{ site.featurure_two_descr }}</span>
-        </div>
-      </div>
-    </li>
-    <li class="col-md-4">
-      <div class="px-2 py-4 py-md-5">
-        <div class="py-3">
-          <span class="pr-3">
-            <img 
-            src="{{ site.featurure_three_image }}" 
-            alt="image" 
-            width="40px"
-            >
-          </span>
-        </div>
-        <div class="pb-1">
-          <strong>{{ site.featurure_three_title }}</strong>
-        </div>
-        <div>
-          <span>{{ site.featurure_three_descr }}</span>
-        </div>
-      </div>
-    </li>
-    <li class="col-md-4">
-      <div class="px-2 py-4 py-md-5">
-        <div class="py-3">
-          <span class="pr-3">
-            <img 
-            src="{{ site.featurure_four_image }}" 
-            alt="image" 
-            width="40px"
-            >
-          </span>
-          <strong>{{ site.featurure_four_title }}</strong>
-        </div>
-      <div>
-        <span>{{ site.featurure_four_descr }}</span>
-      </div>
-      </div>
-    </li>
-    <li class="col-md-4">
-      <div class="px-2 py-4 py-md-5">
-        <div class="py-3">
-          <span class="pr-3">
-            <img 
-            src="{{ site.featurure_five_image }}" 
-            alt="image" 
-            width="40px"
-            >
-          </span>
-          <strong>{{ site.featurure_five_title }}</strong>
-        </div>
-      <div>
-        <span>{{ site.featurure_five_descr }}</span>
-      </div>
-      </div>
-    </li>
-    <li class="col-md-4">
-      <div class="px-2 py-4 py-md-5">
-        <div class="py-3">
-          <span class="pr-3">
-            <img 
-            src="{{ site.featurure_six_image }}" 
-            alt="image" 
-            width="40px"
-            >
-          </span>
-          <strong>{{ site.featurure_six_title }}</strong>
-        </div>
-      <div>
-        <span>{{ site.featurure_six_descr }}</span>
-      </div>
-      </div>
-    </li>
+    {% endfor %}
   </ul>
 </div>
