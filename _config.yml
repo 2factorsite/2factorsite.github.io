@@ -12,28 +12,3 @@ macOS_url: https://apps.apple.com/app/id1538761576#?platform=mac
 privacy_url: https://apps.apple.com
 terms_of_service_url: https://apps.apple.com
 mail_to_url: support@2stable.com
-
-# features
-featurure_one_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/2728.svg
-featurure_one_title: No Account Required
-featurure_one_descr: Easy to set up. You have to remember just one password.
-
-featurure_two_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f440.svg
-featurure_two_title: Biometric Authentication
-featurure_two_descr: Unlock Authenticator without typing your passphrase using Touch or Face ID.
-
-featurure_three_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f9f2.svg
-featurure_three_title: Sync & Backup
-featurure_three_descr: All data is automatically backed up and synced across all devices via iCloud.
-
-featurure_four_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f510.svg
-featurure_four_title: Secure & Private
-featurure_four_descr: All data is encrypted even if is stored in iCloud, so you never have to worry about nasty hackers.
-
-featurure_five_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f98b.svg
-featurure_five_title: User Friendly
-featurure_five_descr: Native experience on all Apple devices. Data Sync, Gestures, Widgets, Dark Mode and more!
-
-featurure_six_image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
-featurure_six_title: Friendly Support
-featurure_six_descr: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
