@@ -8,6 +8,8 @@ available_on_app_store: true
 iOS_url: https://apps.apple.com/app/id1538761576#?platform=iphone
 macOS_url: https://apps.apple.com/app/id1538761576#?platform=mac
 
+test_flight_url: https://testflight.apple.com/join/a20tIGsB
+
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
 support_mail: mailto:support@2stable.com
