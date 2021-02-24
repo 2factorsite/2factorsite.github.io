@@ -27,9 +27,9 @@
   <body>
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
     {%- include nav.html -%}
-    <header class="text-center px-md-5 py-5" role="banner">
+    <header class="container text-center px-md-5 py-5" role="banner">
       <h1 class="">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="px-5 pt-2 pb-3 lead text-center">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="px-md-5 pb-3 lead text-center">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
     <main id="content" class="container pb-5" role="main">
