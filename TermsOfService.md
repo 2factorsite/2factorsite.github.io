@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terms of Service
-description: View the Service Agreement for 1Password users and customers.
+description: View the Service Agreement for Authenticator users and customers.
 ---
 
 ## Terms of Service
