@@ -6,7 +6,7 @@ description: View the Service Agreement for Authenticator users and customers.
 
 ### Your Acceptance
 
-By using or visiting the {{ site.APP_NAME }} website or any {{ site.{{ site.APP_NAME }} }} products, softwares, data feeds, and services provided to you on, from, or through the {{ site.APP_NAME }} website, you signify your agreement to these terms and conditions. If you do not agree to any of these terms please do not use the Service.
+By using or visiting the {{ site.APP_NAME }} website or any {{ site.APP_NAME }} products, softwares, data feeds, and services provided to you on, from, or through the {{ site.APP_NAME }} website, you signify your agreement to these terms and conditions. If you do not agree to any of these terms please do not use the Service.
 This Service is provided by {{ site.APP_NAME }} on an “AS IS” and “AS AVAILABLE” basis and {{ site.APP_NAME }} reserves the right to modify, suspend or discontinue the Service, in its sole discretion, at any time and without notice. You agree to be bound by such modifications. {{ site.APP_NAME }} is and will not be liable to you for any modification, suspension or discontinuance of the Service.
 
 ### Service
