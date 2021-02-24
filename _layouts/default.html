@@ -24,7 +24,7 @@
 
   </head>
   
-  <body class="container">
+  <body>
     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
     {%- include nav.html -%}
     <header class="text-center px-md-5 py-5" role="banner">
@@ -32,13 +32,11 @@
       <h2 class="px-md-5 pt-2 pb-3 lead text-center">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="container" role="main">
       {{ content }}
-
-      <footer class="site-footer">
-        {%- include footer.html -%}
-      </footer>
     </main>
+    
+    {%- include footer.html -%}
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
