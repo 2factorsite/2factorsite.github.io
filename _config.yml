@@ -4,6 +4,9 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
+minima:
+  date_format: "%b %-d, %Y"
+
 available_on_app_store: true
 
 iOS_url: https://apps.apple.com/app/id1538761576#?platform=iphone
