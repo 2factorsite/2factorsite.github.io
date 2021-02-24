@@ -1,35 +1,31 @@
-  <header class="py-md-5 pb-5" role="banner" id="header">
-    <div class="row">
-      <div class="col-md-6 py-md-5">
-        <h1 class="display-4 py-2">Authenticator: Widget & Backup</h1>
-        <h6 class="lead">Secure and fast two-factor authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.</h6>
-        <div class="py-4">
-          {% if site.available_on_app_store %}
-          <p>
-            <a href="{{ site.iOS_url }}">
+<header class="py-md-5 pb-5" role="banner" id="header">
+  <div class="row">
+    <div class="col-md-6 py-md-5">
+      <h1 class="display-4 py-2">Authenticator: Widget & Backup</h1>
+      <h6 class="lead">Secure and fast two-factor authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.</h6>
+      <div class="py-4">
+        <ul class="p-0" style="list-style: none">
+
+          {% for app in site.appstore %}
+          
+          <li class="pb-3">
+            <a href="{{ app.url }}">
               <img 
-              src="./assets/img/badge-download-on-the-app-store.svg" 
-              alt="download on ios app store" 
+              src="{{ app.src }}" 
+              alt="{{ app.alt }}" 
               height="54px"
               >
             </a>
-          </p>
-          <p>
-            <a href="{{ site.macOS_url }}">
-              <img 
-              src="./assets/img/badge-download-on-the-mac-app-store.svg" 
-              alt="download on mac app store"
-              height="54px"
-              >
-            </a>
-          </p>
-          {% endif %}
-        </div>
+          </li>
+
+          {% endfor %}
+
+        </ul>
       </div>
-      
-      <!-- <div class="col-md-6 d-flex align-content-center flex-wrap"> -->
-      <div class="col-md-6 d-flex align-items-center">
-        <img class="w-100" src="./assets/img/artboard_optimized.png" alt="">
-      </div>
+    </div>
+    <!-- <div class="col-md-6 d-flex align-content-center flex-wrap"> -->
+    <div class="col-md-6 d-flex align-items-center">
+      <img class="w-100" src="./assets/img/artboard_optimized.png" alt="">
+    </div>
   </div>
-  </header>
+</header>
