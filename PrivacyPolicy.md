@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Privacy Policy
-description: This privacy policy describes our commitment to preserving the security of your Personal Data, your privacy, and your rights to your Personal Data.
----
+description: The privacy policy is a boring document but we strongly recommend you to read it thoroughly. It is really short.
 
-## Privacy Policy
+---
 
 ### Personal Data
 We don't collect any personal data from your device. Everything you do is saved into your iCloud and is synced across your devices using the same iCloud account.
@@ -33,7 +32,7 @@ The application log file.
 We use Crashlytics to collect and manage this data.
 
 ### Any questions?
-If you have any questions at all, about your data or any other query, kindly contact us EMAIL_ADDRESS We are happy to answer everything.
+If you have any questions at all, about your data or any other query, kindly contact us {}{{mail_to_url}} We are happy to answer everything.
 
 *Your complete satisfaction is our number one priority. Please tell us if anything falls short of your expectations so we can actually do something about it, regardless of these rules. Nothing is set in stone, and we are open to making adjustments.*
 

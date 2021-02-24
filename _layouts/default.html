@@ -24,19 +24,21 @@
 
   </head>
   
-  <body>
-
+  <body class="container">
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
     {%- include nav.html -%}
+    <header class="text-center px-md-5 py-5" role="banner">
+      <h1 class="p-0">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="px-md-5 pt-2 pb-3 lead text-center">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    </header>
 
-    <div class="container pb-5">
-  
-    <!-- any content from .md file will appear here -->
-    {{ content }}
+    <main id="content" class="main-content" role="main">
+      {{ content }}
 
-    </div>
-
-    {%- include footer.html -%}
-
+      <footer class="site-footer">
+        {%- include footer.html -%}
+      </footer>
+    </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
