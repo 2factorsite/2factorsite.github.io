@@ -52,6 +52,8 @@ features:
     details: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
     image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
 
+
 features-banner:
   - title: Protect your accounts with an extra layer of security
     details: Authenticator is a simple, <a href="https://en.wikipedia.org/wiki/Two-factor_authentication">two-factor authentication</a> app. It helps keep your online accounts secure by generating unique one-time passwords.
+    button: button
