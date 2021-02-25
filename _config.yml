@@ -3,7 +3,7 @@ description: Secure and fast Two-Factor Authentication manager for iPhone, iPad,
 google_analytics:
 theme: jekyll-theme-cayman
 
-app_id: 1538761576
+ios_app_id: 1538761576
 
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
