@@ -8,8 +8,6 @@ available_on_app_store: true
 iOS_url: https://apps.apple.com/app/id1538761576#?platform=iphone
 macOS_url: https://apps.apple.com/app/id1538761576#?platform=mac
 
-test_flight_url: https://testflight.apple.com/join/a20tIGsB
-
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
 support_mail: mailto:support@2stable.com
@@ -53,6 +51,7 @@ features:
     image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
 
 
-testflight-title: Help us make Authenticator app even better
-testflight-details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
-testflight-button: Button
+testflight-banner: 
+  - title: Help us make Authenticator app even better
+    details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
+    url: https://testflight.apple.com/join/a20tIGsB
