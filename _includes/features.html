@@ -3,6 +3,7 @@
     <div class="h2 text-center">Protect your accounts with an extra layer of security</div>
     <p class="lead px-md-5">Authenticator is a simple, <a href="https://en.wikipedia.org/wiki/Two-factor_authentication">two-factor authentication</a> app. It helps keep your online accounts secure by generating unique one-time passwords.</p>
   </div>
+
   <ul class="row p-0" style="list-style: none">
 
     {% for item in site.features %}
@@ -10,7 +11,7 @@
     <li class="col-md-4">
       <div class="px-2 py-4 py-md-5">
         <div class="d-flex flex-row">
-          <div class="py-3" id="feature_image_one">
+          <div class="py-3">
             <span class="pr-3">
               <img 
               src="{{ item.image }}" 
@@ -19,12 +20,20 @@
               >
             </span>
           </div>
-          <div id="title_one" class="d-flex align-content-center flex-wrap">
-            <strong>{{ item.title }}</strong>
+          <div class="d-flex align-content-center flex-wrap">
+            <strong>
+
+              {{ item.title }}
+
+            </strong>
           </div>
         </div>
-        <div id="description_one">
-          <p>{{ item.details }}</p>
+        <div>
+          <p>
+
+            {{ item.details }}
+
+          </p>
         </div>
       </div>
     </li>
