@@ -3,6 +3,8 @@ description: Secure and fast Two-Factor Authentication manager for iPhone, iPad,
 google_analytics:
 theme: jekyll-theme-cayman
 
+app_id: 1538761576
+
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
 support_mail: mailto:support@2stable.com
@@ -50,6 +52,7 @@ testflight-banner:
   - title: Help us make Authenticator app even better
     details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
     url: https://testflight.apple.com/join/a20tIGsB
+
 
 features-banner: 
   - title: Protect your accounts with an extra layer of security
