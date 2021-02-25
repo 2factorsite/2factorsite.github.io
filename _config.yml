@@ -8,6 +8,7 @@ ios_app_id: 1538761576
 privacy_url: ./PrivacyPolicy.html
 terms_of_service_url: ./TermsOfService.html
 support_mail: mailto:support@2stable.com
+twitter: https://twitter.com/AuthWidget
 
 # patch  for privacy and terms
 APP_NAME: Authenticator
