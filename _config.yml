@@ -8,7 +8,7 @@ ios_app_id: 1538761576
 collections:
   pages:
     output: true
-    permalink: /:collection/:name
+    permalink: /:path/
 
 privacy_url: /pages/PrivacyPolicy.html
 terms_of_service_url: /pages/TermsOfService.html
