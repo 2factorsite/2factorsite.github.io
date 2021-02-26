@@ -2,7 +2,6 @@
 layout: default
 title: Privacy Policy
 description: The privacy policy is a boring document but we strongly recommend you to read it thoroughly. It is really short.
-
 ---
 
 ### Personal Data
