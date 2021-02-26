@@ -10,7 +10,7 @@ collections:
     output: true
     permalink: /:path/
 
-privacy_url: /pages/PrivacyPolicy.html
+privacy_url: /PrivacyPolicy.html
 terms_of_service_url: /pages/TermsOfService.html
 support_mail: mailto:support@2stable.com
 twitter: https://twitter.com/AuthWidget
